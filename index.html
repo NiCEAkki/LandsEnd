@@ -47,8 +47,14 @@ cxone('guide', 'setCustomCss', `
     background-image: url(https://home-c48.nice-incontact.com/inContact/Manage/FileManager/FileDownload.aspx?FileSystem=UCN&busNo=4602467&Guid=c6565b31-fa12-44a4-b940-fc102137270b&fileName=Logos%5cLogos_Chat_Logo.png&FileId=938638&isFileInFS=True);
     background-repeat: no-repeat;
 background-color: #454545 !important;
-
 }
+
+[class^="header"] {
+    background-image: url(https://home-c48.nice-incontact.com/inContact/Manage/FileManager/FileDownload.aspx?FileSystem=UCN&busNo=4602467&Guid=c6565b31-fa12-44a4-b940-fc102137270b&fileName=Logos%5cLogos_Chat_Logo.png&FileId=938638&isFileInFS=True);
+    background-repeat: no-repeat;
+    background-color: #454545 !important;
+}
+
 
 [class^="UserProfile_UserProfile"] {
     display: none !important;
@@ -84,6 +90,12 @@ background-color: #454545 !important;
 
 [class^="be-frame-default"] {
     left: unset !important;
+}
+
+[data-selector="BEGIN_CHAT"] {
+    color: #ffffff !important;
+    background-color: #454545 !important;
+    border-color: #454545 !important;
 }
 
 `);
