@@ -21,70 +21,75 @@ cxone('init', '1318');
 cxone('guide','init');
 </script>
 
-<!--NICE CXoneChat Basic CHat---->
-
 <script>
-(function(n,u){
-    window.CXoneDfo=n,
-    window[n]=window[n]||function(){(window[n].q=window[n].q||[]).push(arguments)},window[n].u=u,
-    e=document.createElement("script"),e.type="module",e.src=u+"?"+Math.round(Date.now()/1e3/3600),
+(function(n, u) {
+    window.CXoneDfo = n,
+    window[n] = window[n] || function() {
+        (window[n].q = window[n].q || []).push(arguments)
+    },
+    window[n].u = u,
+    e = document.createElement("script"),
+    e.type = "module",
+    e.src = u + "?" + Math.round(Date.now() / 1e3 / 3600),
     document.head.appendChild(e)
-    })('cxone','https://web-modules-de-na1.niceincontact.com/loader/1/loader.js');
+})('cxone', 'https://web-modules-de-na1.niceincontact.com/loader/1/loader.js');
 
 cxone('init', '1318');
-cxone('guide','init');
+cxone('guide', 'init');
 
 //SetCustomCSS
 cxone('guide', 'setCustomCss', `
 .MuiSvgIcon-root {
     fill: rgb(255, 255, 255) !important;
-    }
+}
 
-[class^="header"] {
-    background-image: url(https://home-c48.nice-incontact.com/inContact/Manage/FileManager/FileDownload.aspx?FileSystem=UCN&busNo=4602467&Guid=c6565b31-fa12-44a4-b940-fc102137270b&fileName=Logos%5cLogos_Chat_Logo.png&FileId=938638&isFileInFS=True) !important;
-    background-repeat: no-repeat !important;
-    background-color: #454545 !important;
+[class^="Header_Header"] {
+    background-image: url(https://home-c48.nice-incontact.com/inContact/Manage/FileManager/FileDownload.aspx?FileSystem=UCN&busNo=4602467&Guid=c6565b31-fa12-44a4-b940-fc102137270b&fileName=Logos%5cLogos_Chat_Logo.png&FileId=938638&isFileInFS=True);
+    background-repeat: no-repeat;
+background-color: #454545 !important;
+
 }
 
 [class^="UserProfile_UserProfile"] {
     display: none !important;
-    }
+}
 
-[class^="Avatar_Avatar__"]{
+[class^="Avatar_Avatar__"] {
     display: none !important;
-    }
+}
 
 [class^="EndSession_Profile__"]{
     content: url("https://home-c48.nice-incontact.com/inContact/Manage/FileManager/FileDownload.aspx?FileSystem=UCN&busNo=4602467&Guid=c6565b31-fa12-44a4-b940-fc102137270b&fileName=Logos%5cLE_LOGO_STACKED_Chat.png&FileId=2578779&isFileInFS=True");
-    }
+}
+
 [data-selector="AGENT_MESSAGE"] a {
     color: #000000 !important;
 }
+
 [data-selector="CUSTOMER_MESSAGE"] a {
-    color: #FFFFFF !important;
+    color: #ffffff !important;
 }
+
 [class^="Button_Button"] {
     background-color: #454545 !important;
 }
+
 [data-selector="CUSTOMER_MESSAGE_BUBBLE"] {
     background-color: #454545 !important;
 }
+
 [class^="Widget_Widget"] {
     background-color: #454545 !important;
 }
+
 [class^="be-frame-default"] {
     left: unset !important;
-}
-
-[class^="INPUT"] {
-    text-transform: unset !important;
-    font-weight: 600;
-    font-size: 12px;
 }
 
 `);
 
 </script>
+<!--NICE CXoneChat--->
 
 </head>
 <body>
